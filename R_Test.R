@@ -2,7 +2,7 @@
 
 #Name of the data-set: MyData
 
-MyData <- read.csv2('fsQCA_test_R.csv')
+MyData <- read.csv2("fsQCA_test_R.csv", header = TRUE, fileEncoding = "UTF-8")
 
 hist (MyData$ZSUBJ_SICHER_fe_fs)
 
